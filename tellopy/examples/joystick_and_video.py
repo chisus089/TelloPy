@@ -453,11 +453,11 @@ def main():
             buttons = JoystickPS3
         elif js_name in ('Logitech Gamepad F310'):
             buttons = JoystickF310
-        elif js_name == 'Xbox One Wired Controller':
+        elif js_name == ('Xbox One Wired Controller','Controller (Xbox One For Windows)'):
             buttons = JoystickXONE
         elif js_name == 'Microsoft X-Box One S pad':
             buttons = JoystickXONES
-        elif js_name == 'Xbox Wireless Controller':
+        elif js_name == ('Xbox Wireless Controller','Dispositivo de entrada compatible con Bluetooth XINPUT'):
             buttons = JoystickXONES_WIRELESS
         elif js_name == 'FrSky Taranis Joystick':
             buttons = JoystickTARANIS
